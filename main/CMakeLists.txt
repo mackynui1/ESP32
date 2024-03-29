@@ -2,7 +2,7 @@
 
 # Enable these boards here and not in my_machine.h if you want to override board specific default core options.
 # NOTE: if reflashing/updating these options will not be changed, use $RST=$ to propagate them.
-OPTION(BOARD_BLACKBOX_X32 "Compile for BlackBox X32" OFF)
+OPTION(BOARD_BLACKBOX_X32 "Compile for BlackBox X32" On)
 
 # WiFi vs. Ethernet support
  # Do not enable unless having a board that supports it!
